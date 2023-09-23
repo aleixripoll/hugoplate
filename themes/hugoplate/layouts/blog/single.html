@@ -6,6 +6,7 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mb-10">
+              <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
               {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
             </div>
           {{ end }}
