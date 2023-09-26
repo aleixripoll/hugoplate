@@ -1,19 +1,14 @@
 {{ define "main" }}
+<i class="fa-regular fa-clock mr-2"></i>
+
   <section class="section pt-7">
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          {{ $image:= .Params.image }}
-          {{ if $image }}
-            <div class="mb-10">
-              <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
-              {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
-            </div>
-          {{ end }}
-          <h1 class="h2 mb-4">
+          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center lg:text-5xl">
             {{ .Title }}
           </h1>
-          <ul class="mb-4">
+          <ul class="mb-8 mx-auto max-w-3xl text-center">
             <li class="mr-4 inline-block">
               <a
                 href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
@@ -39,7 +34,16 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
-          <div class="content mb-10">
+
+          {{ $image:= .Params.image }}
+          {{ if $image }}
+            <div class="mb-10">
+              <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
+              {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded") }}
+            </div>
+          {{ end }}
+
+          <div class="content mb-10 mx-auto max-w-3xl font-sans">
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
