@@ -2,7 +2,7 @@
 title: El cuerpo lleva la cuenta
 description: Bessel van der Kolk
 date: 2023-06-10 16:34:00+0200
-image: /images/bessel_van_der_kolk.webp
+image: /images/aron-visuals-BXOXnQ26B7o-unsplash.jpg
 categories: [ "Llibres" ]
 tags: [ "psicologia" ]
 ---
@@ -14,3 +14,7 @@ Lyons-Ruth estaba especialmente interesada en el fenómeno de la disociación, c
 Todos nosotros, pero especialmente los niños, necesitamos esta confianza, la confianza de que los demás nos conocerán, nos afirmarán y nos querrán. Sin esto no podemos desarrollar la sensación de agencia que nos permitirá afirmar «Esto es en lo que creo; esto es lo que defiendo; esto es a lo que me voy a dedicar». Mientras nos sintamos contenidos de un modo seguro en el corazón y en la mente de las personas que nos quieren, subiremos montañas y cruzaremos desiertos y permaneceremos despiertos toda la noche para terminar proyectos. Los niños y los adultos hacen cualquier cosa por las personas en las que confían y cuya opinión valoran.
 
 Pero si nos sentimos abandonados, inútiles o invisibles, nada parece importar. El miedo destruye la curiosidad y la alegría. 
+
+---
+
+*Photo by <a href="https://unsplash.com/@aronvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aron Visuals</a> on <a href="https://unsplash.com/photos/BXOXnQ26B7o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
