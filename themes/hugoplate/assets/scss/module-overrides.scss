@@ -50,7 +50,7 @@
 // search
 .search-wrapper {
   .search-wrapper-content {
-    @apply dark:bg-darkmode-body;
+    @apply dark:bg-darkmode-body max-h-fit;
   }
   input {
     @apply dark:bg-darkmode-theme-light dark:text-darkmode-text dark:border-darkmode-border dark:focus:border-darkmode-primary focus:ring-0;
@@ -59,7 +59,7 @@
     @apply dark:bg-darkmode-theme-light;
   }
   .search-wrapper-body {
-    @apply dark:bg-darkmode-theme-light dark:shadow-none;
+    @apply dark:bg-darkmode-theme-light dark:shadow-none max-h-64;
   }
   &.search-page {
     .search-wrapper-body {
