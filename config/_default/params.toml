@@ -41,13 +41,18 @@ enable = false
 label = "get a quote"
 link = "contact"
 
-# Read More blog card button
+# Read More button
 [read_more_button]
 enable = true
 
 # Page Header partial
 [page_header]
 enable = true
+
+# Related Posts single
+[related_posts]
+enable = false
+
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
