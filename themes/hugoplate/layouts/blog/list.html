@@ -1,6 +1,7 @@
 {{ define "main" }}
+  {{ if site.Params.page_header.enable }}
   {{ partial "page-header" . }}
-
+  {{ end }}
 
   <section class="section">
     <div class="container">
