@@ -37,16 +37,18 @@
           {{ if $image }}
             <div class="mb-10">
               <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
-              {{ partial "image" (dict "Src" $image "Alt" .Title "Class" "w-full rounded max-h-96 object-cover") }}
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-fit object-cover") }}
             </div>
           {{ end }}
 
           <div class="content mb-10 mx-auto max-w-3xl font-sans">
             {{ .Content }}
           </div>
+
+          {{ if .Params.tags }}
           <div class="row items-start justify-between">
             <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
-              <h5 class="mr-3">{{ i18n "tags" }} :</h5>
+              <h5 class="mr-3">{{ i18n "tags" }}:</h5>
               <ul>
                 {{ $tags:= .Params.tags }}
                 {{ range $i,$p:= $tags }}
@@ -64,6 +66,7 @@
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" (i18n "share") "Whatsapp" false "Telegram" false) }}
             </div>
           </div>
+          {{ end }}
           <!-- comments -->
           {{ if site.DisqusShortname }}
             <div class="mt-20">
