@@ -5,7 +5,7 @@ favicon = "images/favicon.png"
 logo = "images/logo.png"
 logo_darkmode = "images/logo-darkmode.png"
 # use `px` or `x` with logo_width, example: "100px".
-# Note: logo_width is not work with .svg file
+# Note: logo_width does not work with .svg file
 logo_width = "160px"
 logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 
