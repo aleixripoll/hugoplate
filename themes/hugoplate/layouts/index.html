@@ -12,7 +12,7 @@
         <div class="lg:col-12">
           <div class="row">
             {{ range site.RegularPages | first 3 }}
-              <div class="md:col-4 mb-12">
+              <div class="md:col-4 mb-8">
                 {{ partial "components/blog-card" . }}
               </div>
             {{ end }}
@@ -27,7 +27,7 @@
         <div class="row justify-center">
           <div class="lg:col-7 text-center">
             <a class="btn btn-primary" href="blog/">
-              Go to blog
+              More posts
               <i class="fa fa-arrow-right pl-2"></i>
             </a>
           </div>
