@@ -11,7 +11,7 @@ tags:
 
 La sensación de vergüenza patológica va siempre relacionada con la creencia de «no valgo», es decir, soy defectuoso. Esta percepción distorsionada de la realidad se compensa con acciones que ayuden a reducir el malestar. Quiero resaltar el gradiente de dos tipos de personalidad muy comunes para reducir la sensación de malestar:
 
-### CUIDADOR
+#### CUIDADOR
 
 Puesto que el niño ha aprendido que no es válido, generalmente porque no se han atendido sus necesidades, puede esforzarse en demasía por valer; es decir, puede cuidar y preocuparse de los demás como forma de ser aceptado. «Ya que nadie te va a querer por lo que eres, puede que te quieran por lo que haces».
 
@@ -21,7 +21,7 @@ La rabia y el malestar durante la infancia (y posteriormente en la adolescencia 
 
 En este tipo de personas, la vergüenza se manifiesta siempre en forma de disculpas, atenciones no pedidas, etc. Presentan frecuentemente somatizaciones y ansiedad, y buscan un médico o psicólogo que les ayude a atenuarla, sin ser conscientes de que son su comportamiento y sumisión constantes los que provocan el malestar.
 
-### NARCISISTA
+#### NARCISISTA
 
 Al igual que en el caso anterior, el niño ha aprendido que nadie va a atender sus necesidades, pero al dar predominio a las áreas más corticales puede evaluar el mundo de una forma fría y poco emocional. Es como si pensara: «Ya que nadie va a cuidarme, solo yo podré cuidar de mí mismo». Estos individuos no sienten la vergüenza en la adolescencia y edad adulta, porque de pequeños fueron incapaces de tolerarla. 
 
