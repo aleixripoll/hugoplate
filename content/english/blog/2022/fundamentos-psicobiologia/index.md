@@ -2,11 +2,9 @@
 title: Fundamentos de Psicobiología
 description: UNED
 date: 2022-11-10 13:38:00+0200
-image: fundamentos_psicobiologia.webp
+image: cover.webp
 categories: [ Llibres, Dibuixos ]
-tags:
-    - ES
-    - Psicologia
+tags: [ "es", "psicologia" ]
 ---
 
 Las fibras procedentes de la retina decusan en el quiasma óptico para solventar la inversión de 180º que experimenta la imagen al atravesar el cristalino. Esta decusación del quiasma óptico está destinada a mantener una representación continua en el techo óptico y congruente con la imagen del campo visual, mientras que la decusación de los tractos motores es consecuencia de aquella y representa una adaptación destinada a aumentar la eficacia de las respuestas defensivas o de huida que dan los animales tetrápodos cuando se enfrentan a un peligro detectado visualmente.
