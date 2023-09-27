@@ -7,7 +7,7 @@
             {{ .Title }}
           </h1>
           {{ if .Description }}
-          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center text-2xl !text-light">
+          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center text-2xl text-light dark:text-darkmode-light">
             {{ .Description }}
           </h1>
           {{ end }}
@@ -55,7 +55,7 @@
           {{ if .Params.tags }}
           <div class="row items-start justify-between">
             <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
-              <h5 class="mr-3 text-light">{{ i18n "tags" }}: </h5>
+              <h5 class="mr-3 text-light dark:text-darkmode-light">{{ i18n "tags" }}: </h5>
               <!--<i class="fa-solid fa-hashtag text-light"></i>-->
               <ul>
                 {{ $tags:= .Params.tags }}
