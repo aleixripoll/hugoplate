@@ -43,7 +43,7 @@ link = "contact"
 
 # Read More button
 [read_more_button]
-enable = true
+enable = false
 
 # Page Header partial
 [page_header]
