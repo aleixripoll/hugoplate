@@ -2,7 +2,7 @@
 title: Ergo Proxy
 date: '2009-04-01T23:05:00.006+02:00'
 categories: [ TV ]
-tags: [ EN ]
+tags: [ EN, Filosofia ]
 image: cover.webp
 rating: 3.5
 ---

@@ -4,7 +4,7 @@ slug: cites-bernard-shaw
 date: 2008-06-06 09:35:00+0200
 description: George Bernard Shaw
 categories: [ Llibres ]
-tags: [ Aforismes, ES ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

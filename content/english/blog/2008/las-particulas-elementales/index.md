@@ -3,7 +3,7 @@ title: Las partículas elementales
 date: '2008-05-31T16:21:00.019+02:00'
 description: Michel Houellebecq
 categories: [ Llibres ]
-tags: [ ES ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 4.5
 ---

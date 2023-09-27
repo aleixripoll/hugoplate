@@ -3,7 +3,7 @@ title: El manantial
 description: Ayn Rand
 date: '2010-01-10T19:18:00.012+01:00'
 categories: [ Llibres ]
-tags: [ ES ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

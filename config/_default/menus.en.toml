@@ -17,12 +17,17 @@ url = "categories/"
 weight = 3
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Tags"
+url = "tags/"
 weight = 4
 
 #[[main]]
+#name = "About"
+#url = "about/"
 #weight = 5
+#
+#[[main]]
+#weight = 6
 #name = "Pages"
 #hasChildren = true
 #

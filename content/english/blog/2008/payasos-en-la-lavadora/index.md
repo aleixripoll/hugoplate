@@ -3,7 +3,7 @@ title: Payasos en la lavadora
 date: '2008-05-31T11:44:00.008+02:00'
 description: Álex de la Iglesia
 categories: [ Llibres ]
-tags: [ ES ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 4
 ---

@@ -4,7 +4,7 @@ slug: cites-samuel-becket
 description: Samuel Beckett
 date: '2008-06-05T09:20:00.027+02:00'
 categories: [ Llibres ]
-tags: [ Aforismes, ES ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

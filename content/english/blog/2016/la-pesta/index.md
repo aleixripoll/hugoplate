@@ -3,7 +3,7 @@ title: La pesta
 description: Albert Camus
 date: '2016-03-06T12:59:00.000+01:00'
 categories: [ Llibres ]
-tags: [ CAT ]
+tags: [ CAT, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

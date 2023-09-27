@@ -2,8 +2,8 @@
 title: El club de la lucha
 description: Chuck Palahniuk
 date: '2008-06-02T16:20:00.016+02:00'
-categories: [ Llibres ]
-tags: [ ES ]
+categories: [ Llibres, TV ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

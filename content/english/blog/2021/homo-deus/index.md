@@ -3,7 +3,7 @@ title: 'Homo Deus: A Brief History of Tomorrow'
 description: Yuval Noah Harari
 date: '2021-06-07T19:14:10.000+02:00'
 categories: [ Llibres ]
-tags: [ EN ]
+tags: [ "EN", "Història", "Filosofia" ]
 image: cover.webp
 rating: 5
 ---

@@ -4,7 +4,7 @@ description: Chuck Palahniuk
 date: '2021-01-20T09:12:00.000+02:00'
 image: cover.webp
 categories: [ Llibres ]
-tags: [ EN ]
+tags: [ "EN", "Novel·la" ]
 rating: 2.5
 ---
 

@@ -3,8 +3,8 @@ title: 'Sapiens: A Brief History of Humankind'
 description: Yuval Noah Harari
 date: '2021-02-25T09:14:10.000+02:00'
 categories: [ Llibres ]
-tags: [ EN ]
-image: sapiens.webp
+tags: [ "EN", "Història", "Filosofia" ]
+image: cover.webp
 rating: 5
 ---
 

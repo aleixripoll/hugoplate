@@ -3,7 +3,7 @@ title: 13,99 euros
 description: Frédéric Beigbeder
 date: '2011-05-16T11:09:00.001+02:00'
 categories: [ Llibres ]
-tags: [ ES ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

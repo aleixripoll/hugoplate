@@ -2,7 +2,7 @@
 title: Recull de frases 3
 date: '2009-04-04T23:09:00.005+02:00'
 categories: [ Llibres ]
-tags: [ Aforismes, ES ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

@@ -3,7 +3,7 @@ title: '21 Lessons for the 21st Century'
 description: Yuval Noah Harari
 date: '2021-10-07T20:23:00.000+02:00'
 categories: [ Llibres ]
-tags: [ EN ]
+tags: [ "EN", "Història", "Filosofia" ]
 image: cover.webp
 rating: 4
 ---

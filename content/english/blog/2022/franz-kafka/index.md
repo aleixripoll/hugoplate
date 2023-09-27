@@ -6,7 +6,8 @@ image: cover.jpg
 categories: [ Llibres, Dibuixos ]
 tags:
     - ES
-    - Aforismes
+    - Cites
+    - Filosofia
 ---
 
 > Empieza con lo que es correcto en lugar de con lo que es aceptable.

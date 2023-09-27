@@ -2,8 +2,8 @@
 title: 'Dune'
 description: Frank Herbert
 date: '2021-12-16T15:21:16.000+02:00'
-categories: [ Llibres ]
-tags: [ ES ]
+categories: [ Llibres, TV ]
+tags: [ "ES", "Filosofia" ]
 image: cover.webp
 ---
 

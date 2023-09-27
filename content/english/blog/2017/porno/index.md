@@ -3,7 +3,7 @@ title: Porno
 description: Irvine Welsh
 date: '2017-06-24T11:22:00.000+02:00'
 categories: [ Llibres ]
-tags: [ ES ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 4.5
 ---
