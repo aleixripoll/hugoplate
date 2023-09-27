@@ -37,7 +37,7 @@
 
           {{ $image:= .Params.image }}
           {{ if $image }}
-            <div class="mb-12">
+            <div class="mb-10 lg:mb-12">
               <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
               {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-fit object-cover") }}
             </div>
