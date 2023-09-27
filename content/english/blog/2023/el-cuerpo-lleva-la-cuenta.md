@@ -4,9 +4,8 @@ description: Bessel van der Kolk
 date: 2023-06-10 16:34:00+0200
 image: /images/aron-visuals-BXOXnQ26B7o-unsplash.jpg
 categories: [ "Llibres" ]
-tags: [ "psicologia" ]
+tags: [ "es", "psicologia" ]
 ---
-
 Lyons-Ruth estaba especialmente interesada en el fenómeno de la disociación, cuya manifestación es sentirse perdido, abrumado, abandonado y desconectado del mundo y verse uno mismo como una persona no querida, vacía, inútil, atrapada y asfixiada. Descubrió una relación «sorprendente e inesperada» entre la desafección materna y la falta de sincronía durante los dos primeros años de vida y los síntomas disociativos en la edad adulta temprana. Lyons-Ruth concluye que los niños que no son realmente vistos ni conocidos por sus madres tienen un mayor riesgo de crecer como adolescentes incapaces de conocer y de ver. Los niños que viven relaciones seguras aprenden a comunicar no solo sus frustraciones y sus aflicciones, sino también su yo emergente (sus intereses, preferencias y objetivos). Recibir una respuesta empática protege a los niños (y a los adultos) de los niveles extremos de activación del miedo. Pero si nuestros cuidadores ignoran nuestras necesidades, o les molesta que existamos, aprendemos a anticipar el rechazo y el retraimiento. Lo manejamos lo mejor que podemos bloqueando la hostilidad o el abandono de la madre como si no importara, pero es probable que nuestro cuerpo permanezca en un estado de alerta elevado, preparado para rebatir los golpes, la privación o el abandono. La disociación significa simultáneamente saber y no saber.
 
 ---
@@ -17,4 +16,5 @@ Pero si nos sentimos abandonados, inútiles o invisibles, nada parece importar. 
 
 ---
 
-*Photo by <a href="https://unsplash.com/@aronvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aron Visuals</a> on <a href="https://unsplash.com/photos/BXOXnQ26B7o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
+###### Photo by <a href="https://unsplash.com/@aronvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aron Visuals</a> on <a href="https://unsplash.com/photos/BXOXnQ26B7o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
