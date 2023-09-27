@@ -53,6 +53,14 @@ enable = true
 [related_posts]
 enable = false
 
+# Categories and Tags sidebar
+[widget_sidebar]
+enable = false
+
+# Post Authors
+[post_authors]
+enable = false
+
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search
