@@ -7,6 +7,9 @@
       {{ if site.Params.breadcrumb.enable }}
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
       {{ end }}
+      {{if .Description }}
+      <div class="mt-4 text-light dark:text-darkmode-light">{{ .Description }}</div>
+      {{ end }}
     </div>
   </div>
 </section>
