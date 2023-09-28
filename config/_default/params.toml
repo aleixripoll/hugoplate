@@ -55,7 +55,7 @@ enable = false
 
 # Categories and Tags sidebar
 [widget_sidebar]
-enable = false
+enable = true
 
 # Post Authors
 [post_authors]
