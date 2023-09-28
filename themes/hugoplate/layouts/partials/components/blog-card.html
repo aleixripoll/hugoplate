@@ -6,11 +6,16 @@
     {{ end }}
   </a>
 
-  <h4 class="mb-3">
+  <h4 class="mb-1">
     <a href="{{ .RelPermalink }}" class="block hover:text-cyan-500 transition duration-300">
       {{ .Title }}
     </a>
   </h4>
+  {{ if .Description }}
+  <h4 class="h2 mb-4 mx-auto text-xl text-light dark:text-darkmode-light">
+    {{ .Description }}
+  </h4>
+  {{ end }}
   <ul class="mb-4">
     {{ if site.Params.post_authors.enable }}
     <li class="mr-4 inline-block">
