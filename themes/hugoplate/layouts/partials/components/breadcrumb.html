@@ -10,7 +10,7 @@
       href="{{ $base | relLangURL }}">
       {{ i18n "home" | default "Home" }}
     </a>
-    <span class="inlin-block mr-1">/</span>
+    <span class="inline-block mr-1">/</span>
   </li>
   {{ range $i, $e:= $context.Ancestors.Reverse }}
     {{ if and (not .IsHome) (ne .Title "Pages") }}
@@ -20,7 +20,7 @@
           href="{{ .RelPermalink }}">
           {{ .Title }}
         </a>
-        <span class="inlin-block mr-1">/</span>
+        <span class="inline-block mr-1">/</span>
       </li>
     {{ end }}
   {{ end }}
