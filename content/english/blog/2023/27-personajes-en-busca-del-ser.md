@@ -2,7 +2,7 @@
 title: 27 personajes en busca del ser
 description: Claudio Naranjo
 date: 2023-04-11 20:24:00+0200
-image: /images/claudio_naranjo.webp
+image: /images/blog/27-personajes-en-busca-del-ser.webp
 categories: [ Llibres ]
 tags: [ "ES", "Psicologia" ]
 ---
