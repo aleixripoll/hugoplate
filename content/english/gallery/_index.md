@@ -1,5 +1,5 @@
 ---
 title: "Gallery"
 meta_title: ""
-description: "Things I give"
+#description: "Things I give"
 ---
