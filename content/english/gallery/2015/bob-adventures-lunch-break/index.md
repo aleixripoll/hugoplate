@@ -2,6 +2,7 @@
 title: 'The lunch break'
 description: Bob Adventures
 date: '2015-09-21T15:46:00.000+02:00'
+categories: [ Dibuixos ]
 tags: [ EN, Bob ]
 image: cover.webp
 ---

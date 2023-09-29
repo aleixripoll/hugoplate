@@ -2,6 +2,7 @@
 title: 'The arrival'
 description: Bob Adventures
 date: '2015-08-24T18:06:00.000+02:00'
+categories: [ Dibuixos ]
 tags: [ EN, Bob ]
 image: cover.webp
 ---

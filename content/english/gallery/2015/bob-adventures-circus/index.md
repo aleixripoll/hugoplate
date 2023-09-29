@@ -2,6 +2,7 @@
 title: 'The circus'
 description: Bob Adventures
 date: '2015-10-07T12:11:00.000+02:00'
+categories: [ Dibuixos ]
 tags: [ EN, Bob ]
 image: cover.webp
 ---
