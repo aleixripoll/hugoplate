@@ -8,16 +8,16 @@ image: cover.webp
 rating: 3.5
 ---
 
-**Max:** They're gonna cancel Latin. They've got to make room for Japanese.
+&mdash; They're gonna cancel Latin. They've got to make room for Japanese.
 
-**Rosemary:** That's a shame because all the Romance languages were based on Latin.
+&mdash; That's a shame because all the Romance languages were based on Latin.
 
-**Max:** Yeah, they are, aren't they?
+&mdash; Yeah, they are, aren't they?
 
-**Rosemary:** Nihilo sanctum estne?
+&mdash; Nihilo sanctum estne?
 
-**Max:** What's that? Oh, it's Latin, isn't it? What does that mean?
+&mdash; What's that? Oh, it's Latin, isn't it? What does that mean?
 
-**Rosemary:** "Is nothing sacred?"
+&mdash; "Is nothing sacred?"
 
-**Max:** Sic transit gloria. Glory fades.
+&mdash; Sic transit gloria. Glory fades.
