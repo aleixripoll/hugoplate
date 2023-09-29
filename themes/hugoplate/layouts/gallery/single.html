@@ -4,15 +4,15 @@
       <div class="row justify-center">
         <div class="lg:col-9 text-center">
 
-          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center lg:text-5xl">
+          <h1 class="h2 mb-4 mx-auto text-center lg:text-5xl">
             {{ .Title }}
           </h1>
           {{ if .Description }}
-          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center text-2xl text-light dark:text-darkmode-light">
+          <h1 class="h2 mb-4 mx-auto text-center text-2xl text-light dark:text-darkmode-light">
             {{ .Description }}
           </h1>
           {{ end }}
-          <ul class="mb-8 mx-auto max-w-3xl text-center">
+          <ul class="mb-8 mx-auto text-center">
             {{ if site.Params.post_authors.enable }}
             <li class="mr-4 inline-block">
               <a

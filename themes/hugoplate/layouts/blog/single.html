@@ -3,15 +3,15 @@
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center lg:text-5xl">
+          <h1 class="h2 mb-4 mx-auto text-center lg:text-5xl">
             {{ .Title }}
           </h1>
           {{ if .Description }}
-          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center text-2xl text-light dark:text-darkmode-light">
+          <h1 class="h2 mb-4 mx-auto text-center text-2xl text-light dark:text-darkmode-light">
             {{ .Description }}
           </h1>
           {{ end }}
-          <ul class="mb-8 mx-auto max-w-3xl text-center">
+          <ul class="mb-8 mx-auto text-center">
             {{ if site.Params.post_authors.enable }}
             <li class="mr-4 inline-block">
               <a
@@ -44,11 +44,11 @@
           {{ if $image }}
             <div class="mb-10 lg:mb-12">
               <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-fit max-w-xl object-cover") }}
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-fit object-cover") }}
             </div>
           {{ end }}
 
-          <div class="content mb-10 lg:mb-20 mx-auto max-w-3xl font-sans">
+          <div class="content mb-10 lg:mb-20 mx-auto font-sans">
             {{ .Content }}
           </div>
 
