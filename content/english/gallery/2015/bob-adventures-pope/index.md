@@ -2,8 +2,7 @@
 title: 'The Pope'
 description: Bob Adventures
 date: '2015-09-27T09:01:00.000+02:00'
-categories: [ Dibuixos ]
-tags: [ EN ]
+tags: [ EN, Bob ]
 image: cover.webp
 ---
 
