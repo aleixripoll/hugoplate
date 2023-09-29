@@ -7,11 +7,19 @@
     <div class="container">
       <div class="row gx-5">
         <!-- blog posts -->
+        {{ if site.Params.widget_sidebar.enable }}
         <div class="lg:col-8">
+        {{ else }}
+        <div class="lg:col-12">
+        {{ end }}
           <div class="row">
             {{ $paginator:= .Paginate .RegularPages }}
             {{ range $paginator.Pages }}
+              {{ if site.Params.widget_sidebar.enable }}
               <div class="md:col-6 mb-14">
+              {{ else }}
+              <div class="md:col-4 mb-14">
+              {{ end }}
                 {{ partial "components/blog-card" . }}
               </div>
             {{ end }}
