@@ -9,9 +9,7 @@
   <section class="section pb-2">
     <div class="container">
       <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest Blog Posts</h2>
-      <div class="row gx-5">
         <!-- blog posts -->
-        <div class="lg:col-12">
           <div class="row">
             {{ range site.RegularPages | first 3 }}
               <div class="md:col-4 mb-8">
@@ -19,7 +17,6 @@
               </div>
             {{ end }}
           </div>
-        </div>
       </div>
     </section>
     <section class="section pt-2">
@@ -39,17 +36,13 @@
   <section class="section pb-2">
     <div class="container">
       <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest Gallery Posts</h2>
-      <div class="row gx-5">
         <!-- blog posts -->
-        <div class="lg:col-12">
           <div class="row">
             {{ range (where .Site.RegularPages.ByTitle "Section" "gallery" ) | first 3 }}
               <div class="md:col-4 mb-8">
                 {{ partial "components/gallery-card" . }}
               </div>
             {{ end }}
-          </div>
-        </div>
       </div>
     </section>
     <section class="section pt-2">
