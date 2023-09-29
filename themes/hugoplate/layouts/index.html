@@ -8,7 +8,7 @@
   <!-- Latest Blog Posts -->
   <section class="section pb-2">
     <div class="container">
-      <h3 class="mb-8">Latest taken</h3>
+      <h1 class="mb-14 text-center">Latest taken</h1>
       <div class="row gx-5">
         <!-- blog posts -->
         <div class="lg:col-12">
@@ -36,9 +36,9 @@
     </section>
 
   <!-- Latest Gallery -->
-  <section class="section py-4">
+  <section class="section pb-2">
     <div class="container">
-      <h3 class="mb-8">Latest given</h3>
+      <h1 class="mb-14 text-center">Latest given</h1>
       <div class="row gx-5">
         <!-- blog posts -->
         <div class="lg:col-12">
@@ -52,11 +52,11 @@
         </div>
       </div>
     </section>
-    <section class="section pt-2 mb-8">
+    <section class="section pt-2">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-7 text-center">
-            <a class="btn btn-primary" href="blog/">
+            <a class="btn btn-primary" href="gallery/">
               Go to Gallery
               <i class="fa fa-arrow-right pl-2"></i>
             </a>
@@ -64,36 +64,6 @@
         </div>
       </div>
     </section>
-
-{{/* }}
-  <!-- Blog Posts -->
-  <section class="section">
-    <div class="container">
-      <div class="row gx-5">
-        <!-- blog posts -->
-        <div class="lg:col-12">
-          <div class="row">
-            {{ $paginator:= .Paginate site.RegularPages }}
-            {{ range $paginator.Pages }}
-              <div class="md:col-4 mb-14">
-                {{ partial "components/blog-card" . }}
-              </div>
-            {{ end }}
-          </div>
-          {{ partial "components/pagination.html" . }}
-        </div>
-        <!-- sidebar -->
-        {{ if site.Params.widget_sidebar.enable }}
-        <div class="lg:col-4">
-          <!-- widget -->
-          {{ $widget:= site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </section>
-{{*/}}
 
   {{ end }}
 {{ end }}
