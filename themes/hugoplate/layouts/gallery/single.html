@@ -29,7 +29,7 @@
               {{ range $i,$p:= $categories }}
                 <a
                   href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-                  class="ms-1 hover:text-cyan-500 transition duration-300"
+                  class="ms-1"
                   >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
                     {{ ", " }}
                   {{ end }}

@@ -7,7 +7,7 @@
   </a>
 
   <h4 class="mb-1">
-    <a href="{{ .RelPermalink }}" class="block hover:text-cyan-500 transition duration-300">
+    <a href="{{ .RelPermalink }}" class="block">
       {{ .Title }}
     </a>
   </h4>
@@ -19,7 +19,7 @@
   <ul class="mb-4">
     {{ if site.Params.post_authors.enable }}
     <li class="mr-4 inline-block">
-      <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/" class="hover:text-cyan-500 transition duration-300">
+      <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
         <i class="fa-regular fa-circle-user mr-1"></i>{{ .Params.author }}
       </a>
     </li>
@@ -30,7 +30,7 @@
       {{ range $i,$p:= $categories }}
         <a
           href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
-          class="ms-1 hover:text-cyan-500 transition duration-300"
+          class="ms-1"
           >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
             {{ ", " }}
           {{ end }}
