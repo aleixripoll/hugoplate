@@ -5,9 +5,10 @@
   {{ partial "page-header" . }}
   {{ end }}
 
-  <!-- Latest Posts -->
-  <section class="section">
+  <!-- Latest Blog Posts -->
+  <section class="section pb-2">
     <div class="container">
+      <h3 class="mb-8">Latest taken</h3>
       <div class="row gx-5">
         <!-- blog posts -->
         <div class="lg:col-12">
@@ -26,7 +27,37 @@
         <div class="row justify-center">
           <div class="lg:col-7 text-center">
             <a class="btn btn-primary" href="blog/">
-              More posts
+              Go to Blog
+              <i class="fa fa-arrow-right pl-2"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Latest Gallery -->
+  <section class="section py-4">
+    <div class="container">
+      <h3 class="mb-8">Latest given</h3>
+      <div class="row gx-5">
+        <!-- blog posts -->
+        <div class="lg:col-12">
+          <div class="row">
+            {{ range (where .Site.RegularPages.ByTitle "Section" "gallery" ) | first 3 }}
+              <div class="md:col-4 mb-8">
+                {{ partial "components/gallery-card" . }}
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section pt-2 mb-8">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="lg:col-7 text-center">
+            <a class="btn btn-primary" href="blog/">
+              Go to Gallery
               <i class="fa fa-arrow-right pl-2"></i>
             </a>
           </div>
