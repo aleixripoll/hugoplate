@@ -5,8 +5,8 @@ min = "0.115.2"
 # [[imports]]
 # path = "github.com/zeon-studio/hugoplate"
 
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/search"
+#[[imports]]
+#path = "github.com/gethugothemes/hugo-modules/search"
 
 [[imports]]
 path = "github.com/gethugothemes/hugo-modules/pwa"
