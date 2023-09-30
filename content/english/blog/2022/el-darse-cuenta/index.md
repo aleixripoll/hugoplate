@@ -2,7 +2,7 @@
 title: El darse cuenta
 description: John O. Stevens
 date: 2022-09-06 19:25:00+0200
-image: cover.webp
+image: cover.jpg
 categories: [ Llibres ]
 tags:
     - ES

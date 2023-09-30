@@ -4,7 +4,7 @@ description: Chuck Palahniuk
 date: '2008-06-02T16:20:00.016+02:00'
 categories: [ Llibres, TV ]
 tags: [ ES, "Novel·la" ]
-image: cover.webp
+image: cover.jpg
 rating: 3.5
 ---
 

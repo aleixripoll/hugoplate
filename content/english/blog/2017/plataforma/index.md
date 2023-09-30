@@ -4,7 +4,7 @@ description: Michel Houellebecq
 date: '2017-11-29T18:13:00.000+01:00'
 categories: [ Llibres ]
 tags: [ ES, "Novel·la" ]
-image: cover.webp
+image: cover.jpg
 rating: 4
 ---
 
