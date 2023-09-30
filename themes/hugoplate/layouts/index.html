@@ -11,7 +11,7 @@
       <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest Blog Posts</h2>
         <!-- blog posts -->
           <div class="row">
-            {{ range site.RegularPages | first 3 }}
+            {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 3 }}
               <div class="md:col-4 mb-8">
                 {{ partial "components/blog-card" . }}
               </div>
@@ -38,7 +38,7 @@
       <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest Gallery Posts</h2>
         <!-- blog posts -->
           <div class="row">
-            {{ range (where .Site.RegularPages.ByTitle "Section" "gallery" ) | first 3 }}
+            {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 3 }}
               <div class="md:col-4 mb-8">
                 {{ partial "components/gallery-card" . }}
               </div>
