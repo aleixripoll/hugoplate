@@ -5,6 +5,8 @@ timeZone: Europe/Madrid
 paginate: 6
 summaryLength: 10
 googleAnalytics: G-MEASUREMENT_ID
+defaultContentLanguage: ca
+defaultContentLanguageInSubdir: false
 disableLanguages: []
 hasCJKLanguage: false
 permalinks:
