@@ -1,14 +1,14 @@
 - id: home
-  translation: Home
+  translation: Inici
 
 - id: read_more
-  translation: Read More
+  translation: Llegir
 
 - id: send
-  translation: Send
+  translation: Enviar
 
 - id: related_posts
-  translation: Related Posts
+  translation: Entrades relacionades
 
 - id: categories
   translation: Categories
@@ -17,28 +17,28 @@
   translation: Tags
 
 - id: toc
-  translation: Table of Contents
+  translation: Taula de Continguts
 
 - id: share
-  translation: Share
+  translation: Compartir
 
 - id: search_input_placeholder
-  translation: Search Post ...
+  translation: Cerca ...
 
 - id: no_results_for
-  translation: No results for
+  translation: Cap resultat per
 
 - id: empty_search_results_placeholder
-  translation: Type something to search...
+  translation: Tecleja alguna cosa...
 
 - id: homepage_header_blog
-  translation: Latest taken
+  translation: Últimes entrades
 
 - id: homepage_header_gallery
-  translation: Latest given
+  translation: Últims dibuixos
 
 - id: homepage_button_blog
-  translation: Go to Blog
+  translation: Blog
 
 - id: homepage_button_gallery
-  translation: Go to Gallery
+  translation: Galeria

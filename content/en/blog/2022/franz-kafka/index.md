@@ -4,10 +4,7 @@ description: Franz Kafka
 date: 2022-09-11 14:18:00+0200
 image: cover.jpg
 categories: [ Llibres, Dibuixos ]
-tags:
-    - ES
-    - Cites
-    - Filosofia
+tags: [ ES, Cites, Filosofia ]
 ---
 
 > Empieza con lo que es correcto en lugar de con lo que es aceptable.

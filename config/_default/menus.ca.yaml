@@ -1,0 +1,16 @@
+main:
+  - name: Inici
+    url: /
+    weight: 1
+  - name: Blog
+    url: blog/
+    weight: 2
+  - name: Galeria
+    url: gallery/
+    weight: 3
+  - name: Categories
+    url: categories/
+    weight: 4
+  - name: Tags
+    url: tags/
+    weight: 5
