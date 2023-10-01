@@ -24,7 +24,7 @@
         <div class="row justify-center">
           <div class="lg:col-7 text-center">
             <a class="btn btn-primary" href="blog/">
-              Go to Blog
+              {{ i18n "homepage_button_blog" }}
               <i class="fa fa-arrow-right pl-2"></i>
             </a>
           </div>
@@ -35,7 +35,7 @@
   <!-- Latest Gallery -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest given</h2>
+      <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">{{ i18n "homepage_header_gallery" }}</h2>
         <!-- blog posts -->
           <div class="row">
             {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 3 }}
@@ -51,7 +51,7 @@
         <div class="row justify-center">
           <div class="lg:col-7 text-center">
             <a class="btn btn-primary" href="gallery/">
-              Go to Gallery
+              {{ i18n "homepage_button_gallery" }}
               <i class="fa fa-arrow-right pl-2"></i>
             </a>
           </div>
