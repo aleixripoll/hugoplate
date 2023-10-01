@@ -6,4 +6,4 @@ image: cover.webp
 tags: [ CAT, Poster, Cuina ]
 ---
 
-![](leo_tiramisu.webp "Tiramisú amb Leonardo da Vinci")
+{{< slider dir="img" class="max-w-[700px] mx-auto mb-16" webp="true" command="Fit" option="" zoomable="true" >}}
