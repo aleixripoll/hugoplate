@@ -1,0 +1,86 @@
+favicon: images/favicon.png
+#logo: logo.png
+logo_darkmode: images/logo-darkmode.png
+logo_width: 160px
+logo_height: 32px
+logo_webp: true
+logo_text: limbo
+navbar_fixed: true
+theme_switcher: true
+theme_default: dark
+mainSections:
+  - blog
+  - gallery
+contact_form_action: '#'
+google_tag_manager: ''
+google_adsense: ''
+custom_script: ''
+copyright: >-
+  Theme [Hugoplate](https://themes.gohugo.io/themes/hugoplate/) by [Zeon
+  Studio](https://zeon.studio)
+enableMissingTranslationPlaceholders: true
+preloader:
+  enable: false
+  preloader: ''
+navigation_button:
+  enable: false
+  label: get a quote
+  link: contact
+read_more_button:
+  enable: false
+page_header:
+  enable: true
+related_posts:
+  enable: false
+widget_sidebar:
+  enable: false
+post_authors:
+  enable: false
+breadcrumb:
+  enable: false
+search:
+  enable: true
+  primary_color: '#121212'
+  include_sections:
+    - blog
+    - gallery
+  show_image: true
+  show_description: true
+  show_tags: true
+  show_categories: true
+metadata:
+  keywords:
+    - limbo
+    - Hugo
+    - blog
+  description: Limbo Personal Blog
+  author: Aleix Ripoll
+  image: images/og-image.png
+site_verification:
+  google: ''
+  bing: ''
+  baidu: ''
+  facebook: ''
+  mastodon: ''
+cookies:
+  enable: false
+  expire_days: 60
+  content: >-
+    This site uses cookies. By continuing to use this website, you agree to
+    their use.
+  button: I Accept
+widgets:
+  sidebar:
+    - categories
+    - tags
+google_map:
+  enable: false
+  map_api_key: AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU
+  map_latitude: '51.5223477'
+  map_longitude: '-0.1622023'
+  map_marker: images/marker.png
+subscription:
+  enable: false
+  mailchimp_form_action: >-
+    https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074
+  mailchimp_form_name: b_463ee871f45d2d93748e77cad_a0a2c6d074

@@ -29,4 +29,7 @@
   translation: No results for
 
 - id: empty_search_results_placeholder
-  translation: Type something to search..
+  translation: Type something to search...
+
+- id: homepage_header_blog
+  translation: Latest taken

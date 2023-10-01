@@ -1,0 +1,35 @@
+- id: home
+  translation: Inici
+
+- id: read_more
+  translation: Llegir
+
+- id: send
+  translation: Enviar
+
+- id: related_posts
+  translation: Entrades relacionades
+
+- id: categories
+  translation: Categories
+
+- id: tags
+  translation: Tags
+
+- id: toc
+  translation: Taula de Continguts
+
+- id: share
+  translation: Compartir
+
+- id: search_input_placeholder
+  translation: Cerca ...
+
+- id: no_results_for
+  translation: Cap resultat per
+
+- id: empty_search_results_placeholder
+  translation: Tecleja alguna cosa...
+
+- id: homepage_header_blog
+  translation: Últimes entrades

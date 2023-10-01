@@ -8,7 +8,7 @@
   <!-- Latest Blog Posts -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">Latest taken</h2>
+      <h2 class="mb-14 text-center text-gray-700 dark:text-gray-300">{{ i18n "homepage_header_blog" }}</h2>
         <!-- blog posts -->
           <div class="row">
             {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 3 }}
