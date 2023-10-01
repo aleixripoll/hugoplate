@@ -1,10 +1,10 @@
 ---
-title: Quotes
+title: Cites
 slug: cites-samuel-becket
 description: Samuel Beckett
 date: '2008-06-05T09:20:00.027+02:00'
-categories: [ Books ]
-tags: [ Quotes, ES ]
+categories: [ Llibres ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

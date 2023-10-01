@@ -2,8 +2,8 @@
 title: Victus
 description: Albert Sánchez Piñol
 date: '2020-02-22T08:01:00.000+02:00'
-categories: [ Books ]
-tags: [ "CAT", "History" ]
+categories: [ Llibres ]
+tags: [ "CAT", "Història" ]
 image: cover.webp
 rating: 5
 ---

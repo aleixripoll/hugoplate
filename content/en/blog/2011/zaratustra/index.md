@@ -2,8 +2,8 @@
 title: Así habló Zaratustra
 description: Friedrich Nietzsche
 date: '2011-05-14T11:39:00.006+02:00'
-categories: [ Books ]
-tags: [ ES, Philosophy ]
+categories: [ Llibres ]
+tags: [ ES, Filosofia ]
 image: cover.webp
 rating: 3
 ---

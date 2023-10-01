@@ -2,8 +2,8 @@
 title: El restaurante del fin del mundo 
 description: Douglas Adams
 date: '2008-06-05T11:54:00.022+02:00'
-categories: [ Books ]
-tags: [ ES, "Novel", Humor ]
+categories: [ Llibres ]
+tags: [ ES, "Novel·la", Humor ]
 image: cover.jpg
 rating: 3.5
 ---

@@ -3,8 +3,8 @@ title: 27 personajes en busca del ser
 description: Claudio Naranjo
 date: 2023-04-11 20:24:00+0200
 image: cover.webp
-categories: [ Books ]
-tags: [ "ES", "Psychology" ]
+categories: [ Llibres ]
+tags: [ "ES", "Psicologia" ]
 ---
 
 A nivel emotivo, el E6 contrafóbico siente miedo, pero hay una redefinición del mismo en términos de obstáculo, límite y defec­to vergonzoso del que se debe liberar. Para esto, desarrolla una serie de comportamientos cuyo objetivo es convencerse a sí mismo y a los demás de que no es víctima del miedo. Ser descubierto como miedoso significa reactivar la sensación de indigni­dad e inseguridad que trata de esconder a través de su pasión específica: la fuerza. En los contrafóbicos, la fuerza se cultiva a menudo a nivel físico. Otro rasgo es el de la fuerza como resistencia a la fatiga, a la represión, a la humillación y al dolor mismo.

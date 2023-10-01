@@ -2,8 +2,8 @@
 title: He wishes for the cloths of heaven
 description: William Butler Yeats
 date: '2008-05-31T11:32:00.010+02:00'
-categories: [ Books ]
-tags: [ EN, Poetry ]
+categories: [ Llibres ]
+tags: [ EN, Poesia ]
 image: cover.webp
 ---
 

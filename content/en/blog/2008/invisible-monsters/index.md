@@ -2,8 +2,8 @@
 title: Invisible Monsters
 description: Chuck Palahniuk
 date: '2008-06-11T11:56:00.007+02:00'
-categories: [ Books ]
-tags: [ EN, "Novel" ]
+categories: [ Llibres ]
+tags: [ EN, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

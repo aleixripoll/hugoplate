@@ -2,7 +2,7 @@
 title: 'The Fountainhead'
 description: Ayn Rand
 date: '2020-04-26T15:45:00.000+01:00'
-categories: [ Books ]
+categories: [ Llibres ]
 tags: [ EN ]
 image: cover.jpg
 rating: 4

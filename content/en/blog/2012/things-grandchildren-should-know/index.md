@@ -2,7 +2,7 @@
 title: Things the grandchildren should know
 description: Mark Oliver Everett
 date: '2012-10-12T15:57:00.000+02:00'
-categories: [ Books ]
+categories: [ Llibres ]
 tags: [ EN ]
 image: cover.webp
 rating: 3.5

@@ -2,8 +2,8 @@
 title: Plataforma
 description: Michel Houellebecq
 date: '2017-11-29T18:13:00.000+01:00'
-categories: [ Books ]
-tags: [ ES, "Novel" ]
+categories: [ Llibres ]
+tags: [ ES, "Novel·la" ]
 image: cover.jpg
 rating: 4
 ---

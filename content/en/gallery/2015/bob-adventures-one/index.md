@@ -2,7 +2,7 @@
 title: 'The one'
 description: Bob Adventures
 date: '2015-10-09T16:18:00.000+02:00'
-categories: [ Drawings ]
+categories: [ Dibuixos ]
 tags: [ EN, Bob ]
 image: cover.webp
 ---

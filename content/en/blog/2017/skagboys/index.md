@@ -2,8 +2,8 @@
 title: Skagboys
 description: Irvine Welsh
 date: '2017-07-13T18:58:00.002+02:00'
-categories: [ Books ]
-tags: [ ES, "Novel" ]
+categories: [ Llibres ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 4
 ---

@@ -2,8 +2,8 @@
 title: La pell freda
 description: Albert Sánchez Piñol
 date: '2019-01-26T21:14:00.000+01:00'
-categories: [ Books ]
-tags: [ "CAT", "Novel" ]
+categories: [ Llibres ]
+tags: [ "CAT", "Novel·la" ]
 image: cover.webp
 rating: 4
 ---

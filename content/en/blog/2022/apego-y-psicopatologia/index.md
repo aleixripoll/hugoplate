@@ -3,10 +3,10 @@ title: 'Apego y psicopatología: la ansiedad y su origen'
 description: Manuel Hernández Pacheco
 date: 2022-10-04 17:11:00+0200
 image: cover.webp
-categories: [ Books, Drawings ]
+categories: [ Llibres, Dibuixos ]
 tags:
     - ES
-    - Psychology
+    - Psicologia
 ---
 
 La sensación de vergüenza patológica va siempre relacionada con la creencia de «no valgo», es decir, soy defectuoso. Esta percepción distorsionada de la realidad se compensa con acciones que ayuden a reducir el malestar. Quiero resaltar el gradiente de dos tipos de personalidad muy comunes para reducir la sensación de malestar:

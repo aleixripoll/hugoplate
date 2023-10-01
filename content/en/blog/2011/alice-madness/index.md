@@ -2,7 +2,7 @@
 title: 'Alice: Madness Returns'
 description: Spicy Horse
 date: '2011-11-12T13:22:00.001+01:00'
-categories: [ Games ]
+categories: [ Jocs ]
 tags: [ EN ]
 image: cover.webp
 ---

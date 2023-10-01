@@ -2,7 +2,7 @@
 title: El capitán salió a comer y los marineros tomaron el barco
 description: Charles Bukowski
 date: '2017-08-12T12:24:00.001+02:00'
-categories: [ Books ]
+categories: [ Llibres ]
 tags: [ ES ]
 image: cover.webp
 rating: 4

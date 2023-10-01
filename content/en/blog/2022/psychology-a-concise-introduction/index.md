@@ -1,12 +1,12 @@
 ---
-title: "Psychology: A concise introduction"
+title: "Psicologia: A concise introduction"
 description: Richard A. Griggs, Sherri L. Jackson
 date: 2022-08-10 13:16:00+0200
 image: cover.jpg
-categories: [ Books ]
+categories: [ Llibres ]
 tags:
     - EN
-    - Psychology
+    - Psicologia
 ---
 
 The first experimental work on schemas and their effects on memory was conducted by Sir Frederick Bartlett in the first half of the twentieth century. Bartlett had his participants study some stories that were rather unusual. He then tested their memory for these stories at varying time intervals. When the participants recalled the stories, they made them more consistent with their own schemas about the world. For example, one story did not say anyone was wounded in the battle described, but participants recalled that many men were wounded, fitting their schemas for battles. Unusual details were normalized. For example, participants recalled incorrectly that the men in another story were fishing rather than hunting seals. In addition, the stories were greatly shortened in length when recalled. Strangely, the participants did not even realize that they were changing many of the details of the stories. In fact, the parts that they changed were those that they were most confident about remembering. Bartlett’s participants had reconstructed the stories using their schemas and did not even realize it. The main point to remember is that they distorted the stories in line with their schemas. Why? Schemas allow us to encode and retrieve information more efficiently. It would be impossible to encode and retrieve the exact details of every event in our lives. That’s why we need organizing schemas to guide us in this task, even though they do not provide an exact copy of what happened.

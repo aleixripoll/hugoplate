@@ -2,8 +2,8 @@
 title: El hombre en busca de sentido
 description: Viktor Frankl
 date: '2008-05-31T11:55:00.007+02:00'
-categories: [ Books ]
-tags: [ Psychology, ES ]
+categories: [ Llibres ]
+tags: [ Psicologia, ES ]
 image: cover.webp
 rating: 3.5
 ---

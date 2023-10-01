@@ -3,8 +3,8 @@ title: Hawaii Meteor
 description: Jair Domínguez
 date: 2023-03-04 18:15:00+0200
 image: cover.webp
-categories: [ "Books", "Drawings" ]
-tags: [ "CAT", "Humor" ]
+categories: [ Llibres, Dibuixos ]
+tags: [ CAT, Humor ]
 ---
 
 En Junior Montblanc va a cursets per gestionar la ràbia i ha llogat un petit xalet adossat en una urbanització als afores. Arriba a casa el primer dia i descobreix que els seus veïns són uns putos xarnegos: bandera espanyola, tovallola amb el toro, crits, gossos i el cotxe aparcat ocupant mig carrer. No hi ha lloc pel preciós cotxe d’en Junior, un Fiat Spider Sport del 68 amb el seient rebaixat i els pedals substituïts per paletes a la part posterior del volant.

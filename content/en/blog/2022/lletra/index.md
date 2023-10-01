@@ -3,10 +3,10 @@ title: Lletra
 description: Miquel Martí i Pol
 date: 2022-09-01 07:35:00+0200
 image: cover.webp
-categories: [ Books ]
+categories: [ Llibres ]
 tags:
     - CAT
-    - Poetry
+    - Poesia
 ---
 
 Ara que estic ben sol i és nit a fora\

@@ -2,7 +2,7 @@
 title: El guardián entre el centeno
 description: J.D. Salinger
 date: '2015-12-20T11:43:00.002+01:00'
-categories: [ Books ]
+categories: [ Llibres ]
 tags: [ ES ]
 image: cover.webp
 rating: 3

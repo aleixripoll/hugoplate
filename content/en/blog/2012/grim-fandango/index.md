@@ -2,7 +2,7 @@
 title: Grim Fandango
 description: Lucasarts
 date: '2012-11-12T21:13:00.002+01:00'
-categories: [ Games ]
+categories: [ Jocs ]
 tags: [ EN ]
 image: cover.webp
 ---

@@ -1,10 +1,10 @@
 ---
-title: Quotes
+title: Cites
 slug: cites-oscar-wilde
 date: 2008-06-05 10:47:00+0200
 description: Oscar Wilde
-categories: [ Books ]
-tags: [ Quotes, ES ]
+categories: [ Llibres ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

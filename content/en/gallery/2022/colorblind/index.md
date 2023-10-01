@@ -1,7 +1,7 @@
 ---
 title: Colorblind
 date: '2022-07-26T18:00:00.000+02:00'
-categories: [ Drawings ]
+categories: [ Dibuixos ]
 image: img/cover.webp
 ---
 

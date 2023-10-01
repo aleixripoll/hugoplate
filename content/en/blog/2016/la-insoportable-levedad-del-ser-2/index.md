@@ -2,8 +2,8 @@
 title: 'La insoportable levedad del ser (Sabina)'
 description: Milan Kundera
 date: '2016-03-16T12:39:00.000+01:00'
-categories: [ Books ]
-tags: [ ES, "Novel", "Philosophy" ]
+categories: [ Llibres ]
+tags: [ ES, "Novel·la", "Filosofia" ]
 image: cover.webp
 rating: 4.5
 ---

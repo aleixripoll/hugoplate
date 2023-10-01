@@ -2,7 +2,7 @@
 title: 'The mall'
 description: Bob Adventures
 date: '2015-09-09T18:12:00.000+02:00'
-categories: [ Drawings ]
+categories: [ Dibuixos ]
 tags: [ EN, Bob ]
 image: cover.webp
 ---

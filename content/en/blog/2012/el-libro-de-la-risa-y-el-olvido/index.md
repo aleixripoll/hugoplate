@@ -2,8 +2,8 @@
 title: El libro de la risa y el olvido
 description: Milan Kundera
 date: '2012-12-31T18:30:00.002+01:00'
-categories: [ Books ]
-tags: [ ES, "Novel" ]
+categories: [ Llibres ]
+tags: [ ES, "Novel·la" ]
 image: cover.webp
 rating: 3.5
 ---

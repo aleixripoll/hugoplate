@@ -1,8 +1,8 @@
 ---
 title: Recull de frases 2
 date: '2009-03-17T22:28:00.003+01:00'
-categories: [ Books ]
-tags: [ Quotes, ES ]
+categories: [ Llibres ]
+tags: [ Cites, ES ]
 image: cover.webp
 ---
 

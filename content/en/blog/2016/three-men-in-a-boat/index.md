@@ -2,8 +2,8 @@
 title: Three men in a boat
 description: Jerome K. Jerome
 date: '2016-05-21T19:18:00.002+02:00'
-categories: [ Books ]
-tags: [ EN, "Novel", "Humor" ]
+categories: [ Llibres ]
+tags: [ EN, "Novel·la", "Humor" ]
 image: cover.webp
 rating: 3.5
 ---

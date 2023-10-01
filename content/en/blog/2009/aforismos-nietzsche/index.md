@@ -2,8 +2,8 @@
 title: Aforismos
 description: Friedrich Nietzsche
 date: '2009-04-10T17:23:00.008+02:00'
-categories: [ Books ]
-tags: [ Quotes, ES, Philosophy ]
+categories: [ Llibres ]
+tags: [ Cites, ES, Filosofia ]
 image: cover.webp
 ---
 

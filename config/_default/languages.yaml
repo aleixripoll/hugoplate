@@ -2,9 +2,9 @@ en:
   languageName: En
   languageCode: en-us
   contentDir: content/en
-  weight: 1
+  weight: 2
 ca:
   languageName: Ca
   languageCode: ca
   contentDir: content/ca
-  weight: 2
+  weight: 1

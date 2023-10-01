@@ -2,8 +2,8 @@
 title: Naked economics
 description: Charles Wheelan
 date: '2015-08-30T15:19:00.003+02:00'
-categories: [ Books ]
-tags: [ EN, "Economy" ]
+categories: [ Llibres ]
+tags: [ EN, "Economia" ]
 image: cover.webp
 rating: 3.5
 ---

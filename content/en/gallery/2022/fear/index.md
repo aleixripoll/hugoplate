@@ -1,7 +1,7 @@
 ---
 title: Fear
 date: '2022-01-10T10:00:00.000+02:00'
-categories: [ Drawings ]
+categories: [ Dibuixos ]
 image: cover.webp
 ---
 

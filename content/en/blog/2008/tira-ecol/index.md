@@ -1,7 +1,7 @@
 ---
 title: Tira Ecol
 date: '2008-06-02T19:06:00.007+02:00'
-categories: [ Comics ]
+categories: [ Còmics ]
 tags: [ES, Humor]
 image: cover.webp
 ---

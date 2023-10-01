@@ -2,7 +2,7 @@
 title: 'Wolfenstein: The New Order'
 description: MachineGames
 date: '2020-12-04T11:42:00.000+01:00'
-categories: [ Games ]
+categories: [ Jocs ]
 tags: [ EN ]
 image: cover.webp
 rating: 4

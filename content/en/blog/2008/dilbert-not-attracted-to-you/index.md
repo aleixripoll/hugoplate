@@ -2,7 +2,7 @@
 title: "Dilbert: I'm not attracted to you"
 description: Scott Adams
 date: '2008-06-03T15:22:00.020+02:00'
-categories: [ Comics ]
+categories: [ Còmics ]
 tags: [ EN, Humor ]
 image: cover.webp
 ---
