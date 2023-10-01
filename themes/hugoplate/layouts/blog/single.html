@@ -3,11 +3,11 @@
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          <h1 class="h2 mb-4 mx-auto text-center lg:text-5xl">
+          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center lg:text-5xl">
             {{ .Title }}
           </h1>
           {{ if .Description }}
-          <h1 class="h2 mb-4 mx-auto text-center text-2xl text-light dark:text-darkmode-light">
+          <h1 class="h2 mb-4 mx-auto max-w-3xl text-center text-2xl text-light dark:text-darkmode-light">
             {{ .Description }}
           </h1>
           {{ end }}
@@ -48,7 +48,7 @@
             </div>
           {{ end }}
 
-          <div class="content mb-10 lg:mb-20 mx-auto font-sans">
+          <div class="content mb-10 lg:mb-20 mx-auto font-sans max-w-3xl !leading-loose">
             {{ .Content }}
           </div>
 
