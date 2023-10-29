@@ -6,4 +6,6 @@ categories: [ Dibuixos ]
 image: cover.webp
 ---
 
-![](clint-1.webp "Clint")
+Quan estàs avorrit fas qualsevol cosa, com viajar a un altre planeta, o dibuixar.
+
+![](clint-1.webp "Clint - You are here")

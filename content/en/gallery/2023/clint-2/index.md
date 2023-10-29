@@ -6,4 +6,6 @@ categories: [ Dibuixos ]
 image: cover.webp
 ---
 
-![](clint-2.webp "Clint boredom")
+Quan viatges a altres planetes a vegades no queda clar quina és l'espècie dominant. A vegades no cal viatjar a altres planetes per a no tenir clar res.
+
+![](clint-2.webp "Clint - Busywork")
