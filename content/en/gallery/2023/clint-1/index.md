@@ -6,6 +6,6 @@ categories: [ Dibuixos ]
 image: cover.webp
 ---
 
-Quan estàs avorrit fas qualsevol cosa, com viajar a un altre planeta, o dibuixar.
+Quan estàs avorrit fas qualsevol cosa, com viajar a altres planetes, o dibuixar.
 
 ![](clint-1.webp "Clint - You are here")

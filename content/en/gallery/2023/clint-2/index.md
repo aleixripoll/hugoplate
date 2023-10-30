@@ -6,6 +6,6 @@ categories: [ Dibuixos ]
 image: cover.webp
 ---
 
-Quan viatges a altres planetes a vegades no queda clar quina és l'espècie dominant. A vegades no cal viatjar a altres planetes per a no tenir clar res.
+Quan viatges a altres planetes a vegades no queda clar què està passant. A vegades viatges a altres planetes amb l'esperança de que allà entendràs alguna cosa. En qualsevol cas, un dia menys.
 
 ![](clint-2.webp "Clint - Busywork")
