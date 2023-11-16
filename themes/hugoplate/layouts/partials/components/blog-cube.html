@@ -7,14 +7,14 @@
   </a>
 
   <h4 class="mb-1">
-    <a href="{{ .RelPermalink }}" class="block">
+    <a href="{{ .RelPermalink }}" class="block text-center">
       {{ .Title }}
     </a>
   </h4>
   {{ if .Description }}
-  <h4 class="h2 mb-4 mx-auto text-xl text-light dark:text-darkmode-light">
+  <h4 class="h2 mb-4 mx-auto text-xl text-light dark:text-darkmode-light text-center">
     {{ .Description }}
   </h4>
   {{ end }}
-
+  <!--<p class="mb-6 text-light dark:text-darkmode-light">{{ .Summary }}</p>-->
 </div>
