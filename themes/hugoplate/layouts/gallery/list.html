@@ -6,12 +6,14 @@
   <section class="section">
     <div class="container">
       <div class="row">
-        {{ range .RegularPages }}
-          <div class="md:col-6 lg:col-4 mb-14">
+        {{ $paginator:= .Paginate .RegularPages 9 }}
+        {{ range $paginator.Pages }}
+          <div class="md:col-6 lg:col-4 mb-10">
             {{ partial "components/gallery-card" . }}
           </div>
         {{ end }}
       </div>
+      {{ partial "components/pagination.html" . }}
     </div>
   </section>
 {{ end }}
