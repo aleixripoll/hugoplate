@@ -1,18 +1,18 @@
 <div class="bg-body dark:bg-darkmode-body group m-0">
-  <a href="{{ .RelPermalink }}" class="rounded block overflow-hidden max-h-48 mb-4">
+  <a href="{{ .RelPermalink }}" class="rounded block overflow-hidden max-h-48 mb-4 shadow-md">
     {{ $image:= .Params.image }}
     {{ if $image }}
-      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "600x" "Class" "w-full rounded max-h-48 object-cover group-hover:scale-[1.03] transition duration-300 opacity-20") }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "600x" "Class" "w-full rounded max-h-48 object-cover group-hover:scale-[1.03] transition duration-300 opacity-75") }}
     {{ end }}
   </a>
 
-  <h4 class="mb-1 relative -top-36 drop-shadow-md">
+  <h4 class="mb-1 relative -top-36 bg-zinc-200/70 dark:bg-zinc-800/70">
     <a href="{{ .RelPermalink }}" class="block text-center">
       {{ .Title }}
     </a>
   </h4>
   {{ if .Description }}
-  <h4 class="h2 mb-4 mx-auto text-xl text-light dark:text-darkmode-light text-center relative -top-36 drop-shadow-md">
+  <h4 class="h2 mb-4 mx-auto text-xl text-light dark:text-darkmode-light text-center relative -top-36 bg-zinc-200/70 dark:bg-zinc-800/70">
     {{ .Description }}
   </h4>
   {{ end }}

@@ -3,6 +3,7 @@ const path = require("path");
 const themePath = path.join(__dirname, "data/theme.json");
 const themeRead = fs.readFileSync(themePath, "utf8");
 const theme = JSON.parse(themeRead);
+const plugin = require('tailwindcss/plugin');
 
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
 let font_scale = Number(theme.fonts.font_size.scale);
@@ -82,6 +83,11 @@ module.exports = {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
       },
+      textShadow: {
+        sm: '0 1px 2px var(--tw-shadow-color)',
+        DEFAULT: '0 2px 4px var(--tw-shadow-color)',
+        lg: '0 8px 8px var(--tw-shadow-color)',
+      },
     },
   },
   plugins: [
@@ -97,6 +103,16 @@ module.exports = {
         4: "1.5rem",
         5: "3rem",
       },
+    }),
+    plugin(function ({ matchUtilities, theme }) {
+      matchUtilities(
+        {
+          'text-shadow': (value) => ({
+            textShadow: value,
+          }),
+        },
+        { values: theme('textShadow') }
+      )
     }),
   ],
 };
