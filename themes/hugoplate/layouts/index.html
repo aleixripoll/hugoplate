@@ -12,14 +12,14 @@
         <!-- blog posts -->
           <div class="row">
             {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
-              <div class="xl:col-4 md:col-6 -mb-16">
+              <div class="xl:col-4 md:col-6 mb-2">
                 {{ partial "components/blog-cube" . }}
               </div>
             {{ end }}
           </div>
       </div>
     </section>
-    <section class="section pt-2">
+    <section class="section pt-8">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-6 text-center">
@@ -32,7 +32,7 @@
       </div>
     </section>
 
-  <hr class="w-4/6 my-8 mx-auto border border-gray-500 opacity-50"/>
+  <hr class="w-10/12 my-8 mx-auto border border-gray-500 opacity-50"/>
 
   <!-- Latest Gallery -->
   <section class="section pb-2">
