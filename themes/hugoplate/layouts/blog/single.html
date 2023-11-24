@@ -44,11 +44,11 @@
           {{ if $image }}
             <div class="mb-10 lg:mb-12">
               <!--<img class="w-full rounded" src="{{ .Params.image }}" />-->
-              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-fit object-cover") }}
+              {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded max-h-[30rem] object-cover") }}
             </div>
           {{ end }}
 
-          <div class="content mb-10 lg:mb-20 mx-auto font-sans max-w-3xl">
+          <div class="content mb-10 lg:mb-20 mx-auto tracking-wide leading-loose max-w-3xl lg:text-2xl">
             {{ .Content }}
           </div>
 
