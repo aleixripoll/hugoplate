@@ -72,6 +72,6 @@ main {
     @apply dark:hover:text-dark no-underline hover:text-white #{!important};
   }
   :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
-    @apply lg:text-lg;
+    @apply lg:text-xl lg:leading-relaxed;
   }
 }
