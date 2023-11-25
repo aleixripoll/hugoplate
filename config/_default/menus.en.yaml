@@ -1,16 +1,16 @@
 main:
   - name: Home
-    url: /
+    url:
     weight: 1
   - name: Blog
-    url: blog/
+    url: blog
     weight: 2
   - name: Gallery
-    url: gallery/
+    url: gallery
     weight: 3
   - name: Categories
-    url: categories/
+    url: categories
     weight: 4
   - name: Tags
-    url: tags/
+    url: tags
     weight: 5

@@ -1,17 +1,19 @@
 <section>
   <div class="container text-center">
-    <div class="rounded p-8 border-b-4 border-sky-500">
+    <div class="rounded p-8">
 
     <!--
       "from-body to-theme-light dark:from-darkmode-body dark:to-darkmode-theme-light"
       <div class="px-8 pt-10">
       <h2 class="text-gray-300 dark:text-gray-300 bg-sky-700 inline-block px-24 py-2 rounded-full">{{ .Title | title }}</h2>-->
       
-      <h1 class="font-light">{{ .Title | title }}</h1>
+      <h1 class="font-light">{{ if .Params.icon }}<i class="{{ .Params.icon }}"></i>{{ else }}{{ .Title | title }}{{ end }}</h1>
+      <hr class="w-10/12 mt-8 mx-auto border-2 border-cyan-500"/>
+
       {{ if site.Params.breadcrumb.enable }}
       {{ partial "components/breadcrumb" (dict "Context" . "Class" "mt-6") }}
       {{ end }}
-      {{if .Description }}
+      {{ if .Description }}
       <div class="mt-4 text-light dark:text-darkmode-light">{{ .Description }}</div>
       {{ end }}
     </div>

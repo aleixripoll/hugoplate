@@ -1,6 +1,6 @@
 ---
 title: "Blog"
 meta_title: ""
-#description: "Things I take"
+#description: ""
 icon: "fa-solid fa-pen-nib"
 ---
