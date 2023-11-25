@@ -5,10 +5,10 @@
 
   <section class="section">
     <div class="container">
-      <div class="row">
+      <div class="row justify-center">
         {{ $paginator:= .Paginate .RegularPages 9 }}
         {{ range $paginator.Pages }}
-          <div class="md:col-6 lg:col-4 mb-10">
+          <div class="col-6 lg:col-4 mb-8 px-2 lg:px-4">
             {{ partial "components/gallery-card" . }}
           </div>
         {{ end }}
