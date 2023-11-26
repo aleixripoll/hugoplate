@@ -1,5 +1,5 @@
 ---
-title: Estilos de apego
+title: Apegos
 date: '2023-11-12T11:08:00.000+02:00'
 categories: [ Dibuixos ]
 image: imgs/attachment.webp
