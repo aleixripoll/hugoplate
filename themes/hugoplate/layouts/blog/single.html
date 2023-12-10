@@ -55,7 +55,7 @@
           {{ if .Params.tags }}
           <div class="row items-start justify-between">
             <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
-              <h5 class="mr-3">{{ i18n "tags" }} :</h5>
+              <!--<h5 class="mr-3">{{ i18n "tags" }} :</h5>-->
               <!--<i class="fa-solid fa-hashtag text-light"></i>-->
               <ul>
                 {{ $tags:= .Params.tags }}
@@ -71,7 +71,7 @@
               </ul>
             </div>
             <div class="lg:col-5 flex items-center text-light dark:text-darkmode-light">
-              {{ partial "social-share" (dict "Context" . "Class" "share-icons text-xl" "Title" (i18n "share") "Whatsapp" false "Telegram" true "Email" false) }}
+              {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Whatsapp" true "Telegram" true "Email" false) }}
             </div>
           </div>
           {{ end }}
