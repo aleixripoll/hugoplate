@@ -6,15 +6,15 @@
     {{ end }}
   </a>
 
-  <h4 class="mb-1 text-center">
+  <h4 class="mb-1 text-center text-xl lg:text-2xl">
     <a href="{{ .RelPermalink }}" class="block">
       {{ .Title }}
     </a>
   </h4>
   {{ if .Description }}
-  <h5 class="mb-4 text-light dark:text-darkmode-light text-center">
+  <h5 class="mb-2 text-light dark:text-darkmode-light text-center text-base lg:text-xl">
     {{ .Description }}
   </h5>
   {{ end }}
-  <p class="mb-6">{{ .Summary }}</p>
+  <!--<p class="mb-6">{{ .Summary }}</p>-->
 </div>

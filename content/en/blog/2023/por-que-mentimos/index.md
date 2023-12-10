@@ -3,7 +3,7 @@ title: Por qué mentimos, en especial a nosotros mismos
 description: Dan Ariely
 date: 2023-10-07 11:35:00+0200
 image: cover.webp
-categories: [ Llibres ]
+categories: [ Llibres, Dibuixos ]
 tags: [ ES, Psicologia ]
 ---
 

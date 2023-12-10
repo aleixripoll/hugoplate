@@ -8,11 +8,11 @@
   <!-- Latest Blog Posts -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-16 text-center text-gray-700 dark:text-gray-300 font-light">&#9832; {{ i18n "homepage_header_blog" }}</h2>
+      <!--<h2 class="mb-16 text-center text-gray-700 dark:text-gray-300 font-light">&#9832; {{ i18n "homepage_header_blog" }}</h2>-->
         <!-- blog posts -->
           <div class="row justify-center">
-            {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 5 }}
-              <div class="xl:col-4 md:col-6 mb-6">
+            {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
+              <div class="xl:col-4 col-6 p-2 md:p-4">
                 {{ partial "components/blog-cube" . }}
               </div>
             {{ end }}
@@ -32,12 +32,12 @@
       </div>
     </section>
 
-  <hr class="w-10/12 my-8 mx-auto border border-gray-500 opacity-40"/>
+  <!--<hr class="w-10/12 my-8 mx-auto border border-gray-500 opacity-40"/>-->
 
   <!-- Latest Gallery -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-12 text-center text-gray-700 dark:text-gray-300 font-light">&#9880; {{ i18n "homepage_header_gallery" }}</h2>
+      <!--<h2 class="mb-12 text-center text-gray-700 dark:text-gray-300 font-light">&#9880; {{ i18n "homepage_header_gallery" }}</h2>-->
         <!-- gallery posts -->
           <div class="row">
             {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 6 }}
