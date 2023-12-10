@@ -55,6 +55,7 @@
         {{ if .Params.tags }}
         <div class="lg:col-5 mb-10 flex items-center lg:mb-0">
           <!--<h5 class="mr-3">{{ i18n "tags" }} :</h5>-->
+          <i class="fa-solid fa-tags mr-2 text-xl"></i>
           <!--<i class="fa-solid fa-hashtag text-light"></i>-->
           <ul>
             {{ $tags:= .Params.tags }}
@@ -63,7 +64,7 @@
                 <a
                   class="bg-theme-light hover:bg-primary dark:bg-darkmode-theme-light dark:hover:bg-darkmode-primary dark:hover:text-dark m-1 block rounded px-3 py-1 hover:text-white"
                   href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                  {{ . | humanize }}
+                  {{ . }}
                 </a>
               </li>
             {{ end }}
@@ -71,7 +72,7 @@
         </div>
         {{ end }}
         <div class="lg:col-4 flex items-center text-light dark:text-darkmode-light">
-          {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Whatsapp" true "Telegram" true "Email" false) }}
+          <i class="fa-regular fa-share-from-square mr-2 text-xl"></i> {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Whatsapp" true "Telegram" true "Email" false) }}
         </div>
       </div>
       <!-- comments -->
