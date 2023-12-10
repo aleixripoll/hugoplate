@@ -6,6 +6,11 @@
       "link": "https://www.github.com/aleixripoll"
     },
     {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin text-xl",
+      "link": "https://www.linkedin.com/"
+    },
+    {
       "name": "instagram",
       "icon": "fab fa-instagram text-xl",
       "link": "https://www.instagram.com/aleix_ripoll"
