@@ -8,18 +8,18 @@
   <!-- Latest Blog Posts -->
   <section class="section py-8 md:pt-16">
     <div class="container">
-      <h2 class="mb-12 text-center text-slate-500 dark:text-slate-400 font-light">{{ i18n "homepage_header_blog" }}...</h2>
+      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-light">{{ i18n "homepage_header_blog" }}</h2>
         <!-- blog posts -->
-          <div class="row justify-center">
-            {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
-              <div class="xl:col-4 lg:col-6 m-0 p-0 pb-2 md:p-1">
-                {{ partial "components/blog-cube" . }}
-              </div>
-            {{ end }}
-          </div>
-      </div>
-    </section>
-    <section class="section pt-8">
+        <div class="row justify-center">
+          {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
+            <div class="xl:col-4 lg:col-6 m-0 p-0 pb-2 md:p-1">
+              {{ partial "components/blog-cube" . }}
+            </div>
+          {{ end }}
+        </div>
+    </div>
+  </section>
+  <section class="section pt-8">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-6 text-center">
@@ -30,25 +30,26 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
-  <hr class="w-9/12 my-2 mx-auto border border-gray-500 opacity-30"/>
+  <hr class="w-7/12 my-1 mx-auto border border-slate-500"/>
+  <hr class="w-7/12 my-1 mx-auto border border-slate-500"/>
 
   <!-- Latest Gallery -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-12 text-center text-slate-500 dark:text-slate-400 font-light">{{ i18n "homepage_header_gallery" }}...</h2>
+      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-light">{{ i18n "homepage_header_gallery" }}</h2>
         <!-- gallery posts -->
-          <div class="row">
-            {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 6 }}
-              <div class="xl:col-4 lg:col-6 m-0 p-0 pb-1 md:p-1">
-                {{ partial "components/gallery-cube" . }}
-              </div>
-            {{ end }}
-          </div>
-      </div>
-    </section>
-    <section class="section pt-8 pb-24">
+        <div class="row">
+          {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 6 }}
+            <div class="xl:col-4 lg:col-6 m-0 p-0 pb-1 md:p-1">
+              {{ partial "components/gallery-cube" . }}
+            </div>
+          {{ end }}
+        </div>
+    </div>
+  </section>
+  <section class="section pt-8 pb-24">
       <div class="container">
         <div class="row justify-center">
           <div class="lg:col-6 text-center">
@@ -59,7 +60,7 @@
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
   {{ end }}
 {{ end }}
