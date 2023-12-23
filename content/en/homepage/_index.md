@@ -1,6 +1,6 @@
 ---
-title: "Home"
+title: "Limbo"
 meta_title: ""
-#description: "Choose your poison"
+#description: "Personal blog"
 icon: "fa-solid fa-seedling"
 ---

@@ -1,6 +1,6 @@
 ---
-title: "Inici"
+title: "Limbo"
 meta_title: ""
-#description: ""
+#description: "Blog personal"
 icon: "fa-solid fa-seedling"
 ---

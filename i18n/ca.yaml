@@ -32,10 +32,10 @@
   translation: Tecleja alguna cosa...
 
 - id: homepage_header_blog
-  translation: Lectures
+  translation: Recentment llegit
 
 - id: homepage_header_gallery
-  translation: Dibuixos
+  translation: Recentment dibuixat
 
 - id: homepage_button_blog
   translation: Blog
