@@ -32,10 +32,10 @@
   translation: Type something to search...
 
 - id: homepage_header_blog
-  translation: Blog latest
+  translation: Latest readings
 
 - id: homepage_header_gallery
-  translation: Gallery latest
+  translation: Latest drawings
 
 - id: homepage_button_blog
   translation: Go to Blog
