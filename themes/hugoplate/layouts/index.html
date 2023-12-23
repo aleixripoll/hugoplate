@@ -1,18 +1,18 @@
 {{ define "main" }}
   {{ with site.GetPage "homepage" }}
-
+{{/*
   {{ if site.Params.page_header.enable }}
   {{ partial "page-header" . }}
   {{ end }}
-
+*/}}
   <!-- Latest Blog Posts -->
-  <section class="section py-2 md:pt-16">
+  <section class="section py-8 md:pt-16">
     <div class="container">
-      <!--<h2 class="mb-16 text-center text-gray-700 dark:text-gray-300 font-light">&#9832; {{ i18n "homepage_header_blog" }}</h2>-->
+      <h2 class="mb-12 text-center text-gray-700 dark:text-gray-300 font-light">&#9832; {{ i18n "homepage_header_blog" }}</h2>
         <!-- blog posts -->
           <div class="row justify-center">
             {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
-              <div class="xl:col-4 col-6 p-2 md:p-4">
+              <div class="xl:col-4 lg:col-6 m-0 p-0 pb-1 md:p-1 -mb-12">
                 {{ partial "components/blog-cube" . }}
               </div>
             {{ end }}
@@ -32,16 +32,16 @@
       </div>
     </section>
 
-  <!--<hr class="w-10/12 my-8 mx-auto border border-gray-500 opacity-40"/>-->
+  <hr class="w-9/12 my-4 mx-auto border border-gray-500 opacity-30"/>
 
   <!-- Latest Gallery -->
   <section class="section pb-2">
     <div class="container">
-      <!--<h2 class="mb-12 text-center text-gray-700 dark:text-gray-300 font-light">&#9880; {{ i18n "homepage_header_gallery" }}</h2>-->
+      <h2 class="mb-12 text-center text-gray-700 dark:text-gray-300 font-light">&#9880; {{ i18n "homepage_header_gallery" }}</h2>
         <!-- gallery posts -->
           <div class="row">
             {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 6 }}
-              <div class="xl:col-4 col-6 p-2 md:p-4">
+              <div class="xl:col-4 lg:col-6 m-0 p-0 pb-1 md:p-1">
                 {{ partial "components/gallery-cube" . }}
               </div>
             {{ end }}

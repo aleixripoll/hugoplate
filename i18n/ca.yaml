@@ -32,13 +32,13 @@
   translation: Tecleja alguna cosa...
 
 - id: homepage_header_blog
-  translation: Últimes entrades
+  translation: Lectures
 
 - id: homepage_header_gallery
-  translation: Últims dibuixos
+  translation: Dibuixos
 
 - id: homepage_button_blog
-  translation: Anar a Blog
+  translation: Blog
 
 - id: homepage_button_gallery
-  translation: Anar a Galeria
+  translation: Galeria
