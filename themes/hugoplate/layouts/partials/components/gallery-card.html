@@ -2,9 +2,9 @@
   <a href="{{ .RelPermalink }}" class="rounded block overflow-hidden group max-h-56 mb-4">
     {{ $image:= .Params.image }}
     {{ if $image }}
-    <!--<div class="img-gloss">-->
-      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "700x500" "Command" "Crop" "Class" "w-full rounded max-h-56 object-cover group-hover:scale-[1.05] transition duration-300") }}
-    <!--</div>-->
+    <div class="img-gloss">
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "700x400" "Command" "Crop" "Class" "w-full rounded max-h-56 object-cover group-hover:scale-[1.05] transition duration-300") }}
+    </div>
     {{ end }}
   </a>
 
