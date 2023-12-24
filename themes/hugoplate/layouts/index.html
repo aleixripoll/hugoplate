@@ -8,7 +8,7 @@
   <!-- Latest Blog Posts -->
   <section class="section py-8 md:pt-16">
     <div class="container">
-      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-light">{{ i18n "homepage_header_blog" }}</h2>
+      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-thin">{{ i18n "homepage_header_blog" }}</h2>
         <!-- blog posts -->
         <div class="row justify-center">
           {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse | first 6 }}
@@ -37,7 +37,7 @@
   <!-- Latest Gallery -->
   <section class="section pb-2">
     <div class="container">
-      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-light">{{ i18n "homepage_header_gallery" }}</h2>
+      <h2 class="mb-12 text-center text-neutral-500 dark:text-neutral-400 font-thin">{{ i18n "homepage_header_gallery" }}</h2>
         <!-- gallery posts -->
         <div class="row">
           {{ range (where .Site.RegularPages.ByTitle "Section" "gallery").ByDate.Reverse | first 6 }}
