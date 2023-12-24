@@ -1,1 +1,26 @@
 // Add your own custom styles here
+
+
+// Image gloss based on https://www.youtube.com/watch?v=2btuhCYf7zw
+.img-gloss {
+    position: relative;
+    overflow: hidden;
+}
+
+.img-gloss:before {
+    content: '';
+    position: absolute;
+    left: -50px;
+    width: 150px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-50deg);
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.img-gloss:hover:before {
+    left: -200px;
+    background: rgba(255, 255, 255, 0.2);
+}

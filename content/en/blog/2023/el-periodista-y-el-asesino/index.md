@@ -2,7 +2,7 @@
 title: El periodista y el asesino
 description: Janet Malcolm
 date: 2023-10-29 16:48:00+0200
-image: cover.webp
+image: cover.jpg
 categories: [ Llibres ]
 tags: [ ES, Psicologia ]
 ---
