@@ -1,20 +1,22 @@
-<div class="bg-body dark:bg-darkmode-body group m-0">
-  <a href="{{ .RelPermalink }}" class="block overflow-hidden max-h-44">
+<div class="bg-body dark:bg-darkmode-body group mr-4">
+  <a href="{{ .RelPermalink }}" class="block overflow-hidden rounded">
     {{ $image:= .Params.image }}
     {{ if $image }}
-      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "500x" "Class" "w-full max-h-44 object-cover group-hover:scale-[1.03] transition duration-300 opacity-100") }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "500x" "Class" "rounded w-full object-cover group-hover:scale-[1.05] transition duration-300 opacity-100") }}
     {{ end }}
   </a>
+</div>
 
-  <h4 class="text-center pt-2 text-2xl leading-tight tracking-tight">
+<div>
+  <h4 class="pt-2 text-center md:text-start">
     <a href="{{ .RelPermalink }}" class="block">
       {{ .Title }}
     </a>
   </h4>
   {{ if .Description }}
-  <h5 class="text-center pb-2 text-light dark:text-darkmode-light text-xl leading-tight tracking-tight">
+  <h5 class="text-center md:text-start text-light dark:text-darkmode-light">
     {{ .Description }}
   </h5>
   {{ end }}
-  <!--<p class="mb-6 pt-2">{{ .Summary | truncate 150 }}</p>-->
+  <p class="mb-6 pt-2 text-sm font-mono">{{ .Summary | truncate 150 }}</p>
 </div>

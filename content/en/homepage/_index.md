@@ -1,6 +1,6 @@
 ---
-title: "Limbo"
+title: "Latest"
 meta_title: ""
 #description: "Personal blog"
-icon: "fa-solid fa-seedling"
+icon: "fa-regular fa-clock"
 ---
