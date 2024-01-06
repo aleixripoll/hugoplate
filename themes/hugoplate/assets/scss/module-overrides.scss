@@ -7,10 +7,10 @@
 .share-icons {
   .share-link {
     @apply h-9 w-9 rounded leading-9;
-    @apply opacity-80 bg-primary hover:opacity-100 dark:bg-darkmode-primary;
+    @apply opacity-80 bg-primary hover:opacity-100 dark:bg-darkmode-darker;
   }
   .share-icon svg {
-    @apply dark:fill-darkmode-dark;
+    @apply dark:fill-darkmode-lighter;
   }
 }
 
