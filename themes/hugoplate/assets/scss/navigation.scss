@@ -21,7 +21,7 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 
 .navbar-brand {
-  @apply text-dark dark:text-darkmode-dark text-xl font-semibold;
+  @apply text-dark dark:text-darkmode-dark text-xl;
   image {
     @apply max-h-full max-w-full;
   }
@@ -36,7 +36,7 @@ input#nav-toggle:checked ~ #nav-menu {
 // }
 
 .nav-link {
-  @apply text-dark dark:text-darkmode-dark block p-3 font-semibold transition lg:px-2 lg:py-3;
+  @apply text-dark dark:text-darkmode-dark block p-3 font-semibold tracking-wide transition lg:px-2 lg:py-3;
 }
 
 .nav-dropdown {

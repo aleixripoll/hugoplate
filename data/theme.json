@@ -25,9 +25,9 @@
       },
       "text_color": {
         "default": "#B4AFB6",
-        "dark": "#94a3b8",
+        "dark": "#94a3c8",
         "light": "#B4AFB6",
-        "darker": "#64748b",
+        "darker": "#54648b",
         "lighter": "#fff"
       }
     }
