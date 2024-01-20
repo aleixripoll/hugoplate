@@ -1,9 +1,9 @@
 <div class="bg-body dark:bg-darkmode-body p-4">
-  <a href="{{ .RelPermalink }}" class="block overflow-hidden group rounded-full max-w-lg m-auto">
+  <a href="{{ .RelPermalink }}" class="block overflow-hidden group rounded lg:rounded-full max-w-lg m-auto">
     {{ $image:= .Params.image }}
     {{ if $image }}
     <div class="img-gloss">
-      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "512x512" "Command" "Crop" "Class" "rounded-full object-cover group-hover:scale-[1.05] transition duration-300") }}
+      {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Size" "512x512" "Command" "Crop" "Class" "rounded lg:ounded-full object-cover group-hover:scale-[1.05] transition duration-300") }}
     </div>
     {{ end }}
   </a>
